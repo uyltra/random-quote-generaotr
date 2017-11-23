@@ -1,0 +1,91 @@
+.dividing-space {
+  display: block;
+  height: 40px;
+  width: 150px;
+  margin: 0 auto;
+}
+.card {
+      position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+  border: 0px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.09);
+  background: #fdfdfd;
+  padding: 20px;
+}
+
+.fa-quote-left, .fa-quote-right {
+  color: #6089ce;
+}
+.card-body p:first-child {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2em;
+}
+p.quote-text {
+  font-size: initial;
+  color: #b4b4b4;
+}
+.btn {
+  position: relative;
+  border: none;
+}
+.btn-lg {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23);
+}
+.btn-lg:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23);
+  outline: none;
+}
+@keyframes animation1 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes animation1 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeIn {
+  position: absolute;
+  background: rgba(255,255,255,0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 10;
+  animation: animation1 0.5s linear;
+}
+.cta-text {
+  position: relative;
+}
+#tweetBtn {
+  text-decoration: none;
+}
+#quotes {
+  display: none;
+}
