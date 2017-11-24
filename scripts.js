@@ -7,7 +7,7 @@ $(document).ready(function(){
 
   $('#getQuote').on('click', function(event) {
     count++;
-   // event.preventDefault();
+   event.preventDefault();
 
     $('#quotes').css({
       'display':'block'
